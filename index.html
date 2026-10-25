@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maison Aurelle — a refined coffee and patisserie experience in Dubai.">
+
+  <title>Maison Aurelle | A Quieter Kind of Luxury</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  
+  <header class="site-header">
+    <a href="#home" class="logo">
+      MAISON <span>AURELLE</span>
+    </a>
+
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="#story">Our Story</a>
+      <a href="#menu">The Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+
+    <a href="#reservation" class="header-cta">
+      RESERVE A TABLE
+    </a>
+  </header>
+
+  <main>
+
+    
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">SPECIALTY COFFEE · DUBAI</p>
+
+        <h1>
+          A quieter kind
+          <br>
+          of <span>luxury.</span>
+        </h1>
+
+        <p class="hero-description">
+          Thoughtfully crafted coffee, delicate patisserie,
+          and moments worth slowing down for.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="button button-gold">
+            EXPLORE THE MENU
+          </a>
+
+          <a href="#story" class="text-link">
+            DISCOVER OUR STORY ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="intro section" id="story">
+      <p class="eyebrow">THE MAISON PHILOSOPHY</p>
+
+      <h2>
+        Some moments deserve
+        <br>
+        to be <span>savored.</span>
+      </h2>
+
+      <p class="intro-description">
+        From the first pour of espresso to the last delicate bite,
+        Maison Aurelle celebrates the beauty of life's little rituals.
+      </p>
+    </section>
+
+    
+    <section class="menu-section section" id="menu">
+      <p class="eyebrow">A FEW HOUSE FAVOURITES</p>
+
+      <h2>Made with <span>intention.</span></h2>
+
+      <div class="menu-grid">
+
+        <article class="menu-item">
+          <p class="item-number">01</p>
+          <h3>Aurelle Signature Latte</h3>
+          <p>Silky espresso, steamed milk and a delicate hint of vanilla.</p>
+          <span class="price">AED 28</span>
+        </article>
+
+        <article class="menu-item">
+          <p class="item-number">02</p>
+          <h3>Spanish Iced Latte</h3>
+          <p>Bold espresso softened with chilled milk and gentle sweetness.</p>
+          <span class="price">AED 30</span>
+        </article>
+
+        <article class="menu-item">
+          <p class="item-number">03</p>
+          <h3>Pistachio Croissant</h3>
+          <p>Golden, flaky pastry filled with a rich pistachio cream.</p>
+          <span class="price">AED 32</span>
+        </article>
+
+      </div>
+    </section>
+
+    
+    <section class="gallery-section section" id="gallery">
+      <p class="eyebrow">A GLIMPSE INSIDE</p>
+
+      <h2>The art of <span>indulgence.</span></h2>
+
+      <div class="gallery-grid">
+
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=80"
+            alt="Warm, elegant café interior"
+            loading="lazy"
+          />
+          <span>Coffee &amp; Craft</span>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80"
+            alt="Freshly prepared coffee"
+            loading="lazy"
+            />
+            <span>A Moment of Calm</span>
+        </div>
+        
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80"
+            alt="A welcoming café space"
+            loading="lazy"
+            />
+            <span>The Finer Details</span>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="reservation-section section" id="reservation">
+      <p class="eyebrow">YOUR TABLE AWAITS</p>
+
+      <h2>Make a moment <span>of it.</span></h2>
+
+      <form id="reservation-form">
+        <label for="guest-name">Your name</label>
+        <input
+          id="guest-name"
+          name="name"
+          type="text"
+          autocomplete="name"
+          required
+        >
+
+        <label for="guest-email">Email address</label>
+        <input
+          id="guest-email"
+          name="email"
+          type="email"
+          autocomplete="email"
+          required
+        >
+
+        <label for="guest-count">Number of guests</label>
+        <select id="guest-count" name="guests" required>
+          <option value="1">1 guest</option>
+          <option value="2" selected>2 guests</option>
+          <option value="3">3 guests</option>
+          <option value="4">4 guests</option>
+          <option value="5+">5 or more guests</option>
+        </select>
+
+        <button class="button button-gold" type="submit">
+          SEND ENQUIRY
+        </button>
+
+        <p id="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    
+    <section class="visit-section section" id="visit">
+      <p class="eyebrow">FIND YOUR WAY TO US</p>
+
+      <h2>Your next favourite <span>corner.</span></h2>
+
+      <p>Dubai, United Arab Emirates</p>
+      <p>Opening hours: 8:00 AM – 11:00 PM daily</p>
+
+      <p class="small-note">
+        Fictional café concept created for a web development portfolio.
+      </p>
+    </section>
+
+  </main>
+
+  
+  <footer class="site-footer">
+    <a href="#home" class="logo">
+      MAISON <span>AURELLE</span>
+    </a>
+
+    <p>A quieter kind of luxury.</p>
+    <p>© 2026 Maison Aurelle · Concept website</p>
+  </footer>
+
+</body>
+</html>
